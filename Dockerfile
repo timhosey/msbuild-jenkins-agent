@@ -13,6 +13,6 @@ FROM builder
     RUN wget https://dot.net/v1/dotnet-install.sh -O $HOME/dotnet-install.sh
 
     RUN chmod +x $HOME/dotnet-install.sh
-    RUN $HOME/dotnet-install.sh -c 5.0
+    RUN $HOME/dotnet-install.sh -c 7.0
 
 USER jenkins
