@@ -1,7 +1,6 @@
 FROM alpine:latest
 
-ARG REPO=mcr.microsoft.com/dotnet/aspnet
-FROM $REPO:7.0.0-rc.2-alpine3.16-amd64
+FROM mcr.microsoft.com/dotnet/aspnet:7.0.0-rc.2-alpine3.16-amd64
 
 ENV \
     # Unset ASPNETCORE_URLS from aspnet base image
