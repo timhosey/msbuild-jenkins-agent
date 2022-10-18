@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:latest-alpine AS builder
+FROM jenkins/jenkins:alpine AS builder
 
     # Switch to root user to install .NET SDK
     USER root
