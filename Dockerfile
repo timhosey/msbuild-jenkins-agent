@@ -14,5 +14,3 @@ FROM builder
 
     RUN chmod +x $HOME/dotnet-install.sh
     RUN $HOME/dotnet-install.sh -c 7.0
-
-USER jenkins
