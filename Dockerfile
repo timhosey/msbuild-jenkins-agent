@@ -14,3 +14,7 @@ RUN ./dotnet-install.sh -c 3.1 --install-dir /usr/share/dotnet
 RUN ./dotnet-install.sh -c 5.0 --install-dir /usr/share/dotnet
 RUN ./dotnet-install.sh -c 6.0 --install-dir /usr/share/dotnet
 RUN ./dotnet-install.sh -c 7.0 --install-dir /usr/share/dotnet
+
+# Validation
+RUN ls /usr/share/dotnet
+RUN /usr/share/dotnet/dotnet --help
